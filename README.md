@@ -1,16 +1,14 @@
-# HTML Basic Setup
+## Wood Stock Pretzels 
 
-This is a basic template for most websites. It has a simple file structure, normalize.css linked by CDN and a script.js file.
-You will need to update the gulpfile.js paths for your specific set of scss files and js files.
+I redesigned a site I made for my friend that makes pretzels
 
-To install all gulp packages run: ```npm install```
+##Tools Used 
 
-## Gulp Setup
-The gulpfile.js contains:
-- [gulp-sass](https://www.npmjs.com/package/gulp-sass)
-- [gulp-webserver](https://www.npmjs.com/package/gulp-webserver)
-- [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)
-- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
-- [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
-
-
+I used:
+-HTML
+-CSS
+-Javascript
+-NPM
+-Gulp
+-Sass
+-Jquery
