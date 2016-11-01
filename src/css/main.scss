@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Sanchez);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css');
+@import "index.scss";
+@import "about.scss";
+@import "menu.scss";
+@import "gallery.scss";
+@import "vars.scss";
+
+body {
+  background-image: radial-gradient( circle farthest-side, #fff, #BF681B );
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* for the head */
+h1 {
+  text-align: center;
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
+  padding: 3vh 0;
+  font-family: $sanchez;
+}
+h2 {
+  text-align: center;
+  font-family: $sanchez;
+}
+
+nav {
+  ul {
+    text-align: center;
+    font-family: $jose-sans;
+    font-size: 1.25em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+      margin: 1vh 1vw;
+    }
+  }
+}

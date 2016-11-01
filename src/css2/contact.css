@@ -1,0 +1,55 @@
+.contact {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif; }
+  .contact h2 {
+    font-family: "Sanchez", serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-align: center; }
+  .contact form {
+    background: #fff;
+    max-width: 300px;
+    margin: 100px auto 0;
+    padding: 1em 1em 1em;
+    box-shadow: 0 0 1em #555; }
+  .contact p {
+    margin: 0 0 1em 0;
+    position: relative; }
+  .contact label {
+    display: block;
+    font-size: 1em;
+    color: #333;
+    margin: 0 0 .5em; }
+  .contact input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none; }
+  .contact input[type="text"] {
+    border: 1px solid #e2e2f1;
+    background: #ede3cd;
+    padding: .8em .5em;
+    font-size: 1em; }
+  .contact input[type="submit"] {
+    display: block;
+    border: none;
+    outline: none;
+    margin: 2em 0 0;
+    padding: 0.7em 0;
+    color: #fff;
+    background: #E8B57D;
+    box-shadow: 0 5px 0 0 #BF681B;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    cursor: pointer; }
+  .contact textarea {
+    background: #ede3cd; }
+
+footer {
+  background-color: #E8B57D;
+  width: 100%;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center; }

@@ -1,0 +1,29 @@
+.menu {
+  height: 100vh;
+  width: 100%;
+  color: #222;
+  font-family: "Bitter", serif; }
+  .menu h2 {
+    font-family: "Sanchez", serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-align: center; }
+  .menu h3 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-decoration: underline;
+    font-size: 1.5em; }
+  .menu .titleContain {
+    display: flex; }
+  .menu .menuContainer {
+    display: flex; }
+    .menu .menuContainer img {
+      height: auto;
+      width: 10vw; }
+    .menu .menuContainer .item1, .menu .menuContainer .item2, .menu .menuContainer .item3, .menu .menuContainer .item4 {
+      height: 100vh;
+      width: 25vw;
+      text-align: center;
+      padding: 0 2vw;
+      font-family: "Josefin Sans", sans-serif; }

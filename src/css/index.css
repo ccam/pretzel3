@@ -1,0 +1,15 @@
+.top {
+  height: 100vh;
+  width: 100%; }
+  .top img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 300px;
+    padding-top: 5%; }
+  .top p {
+    text-align: center;
+    font-family: "Bitter", serif;
+    padding: 100px 0; }
+  .top a {
+    font-weight: bold; }

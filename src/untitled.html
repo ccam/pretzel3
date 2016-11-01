@@ -1,0 +1,143 @@
+<div class="gallery">
+ <h2>Gallery</h2>
+  <div class="smallPicSection">
+    <ul>
+      <li><img id="1" class="smallPic" src="css/img/001.jpg"></li>
+      <li><img id="2" class="smallPic" src="css/img/002.jpg"></li>
+      <li><img id="3" class="smallPic" src="css/img/003.jpg"></li></br>
+      <li><img id="4" class="smallPic" src="css/img/004.jpg"></li>
+      <li><img id="5" class="smallPic" src="css/img/005.jpg"></li>
+      <li><img id="6" class="smallPic" src="css/img/006.png"></li></br>
+      <li><img id="7" class="smallPic" src="css/img/007.png"></li>
+      <li><img id="8" class="smallPic" src="css/img/008.png"></li>
+      <li><img id="9" class="smallPic" src="css/img/009.png"></li>
+    </ul>
+  </div>
+
+  <div class="bigPicSection">
+  <img src="css/img/001.jpg" alt="#" id="bigImg">
+  </div>
+</div>
+
+<div class="tour">
+<p>Where we will be next:</p>
+  <table>
+    
+
+  </table>
+</div>
+
+
+<div class="menu" id="menu">
+  <h2>Menu</h2>
+  <div class="titleContain">
+    <h3>Pretzels</h3>
+    <h3>Dips</h3>
+  </div>
+
+  <div class="menuContainer">
+    <div class="item1">
+
+      <img src="css/img/menu/butterAndSalt.gif" alt="#" /><br>
+      Butter and Salt Pretzel <br>
+      $5.00 <br>
+
+      <img src="css/img/menu/butterAndSalt.gif" alt="#" /><br>
+      Powdered Sugar Pretzel <br>
+      $5.00 <br>
+
+
+      <img src="css/img/menu/butterAndSalt.gif" alt="#" /><br>
+      Cinnomon Sugar Pretzel <br>
+      $5.00 <br>
+
+    </div>
+    <div class="item2">
+
+      <img src="css/img/menu/butterAndSalt.gif" alt="#" /><br>
+      Parmasean Garlic Pretzel <br>
+      $5.00 <br>
+
+      <img src="css/img/menu/butterAndSalt.gif" alt="#" /><br>
+      Carmel Nut Pretzel <br>
+      $5.00 <br>
+
+    </div>
+    <div class="item3">
+
+      <img src="css/img/menu/ramekin2.png" alt="#" /><br>
+      Butter and Salt Pretzel <br>
+      $5.00 <br>
+
+      <img src="css/img/menu/ramekin2.png" alt="#" /><br>
+      Butter and Salt Pretzel <br>
+      $5.00 <br>
+
+    </div>
+    <div class="item4">
+
+      <img src="css/img/menu/ramekin2.png" alt="#" /><br>
+      Butter and Salt Pretzel <br>
+      $5.00 <br>
+
+
+      <img src="css/img/menu/ramekin2.png" alt="#" /><br>
+      Butter and Salt Pretzel <br>
+      $5.00 <br>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="contact" id="contact">
+  <a href="#top" class="top">Top</a>
+  <h2>Contact Us</h2>
+
+
+  <form>
+    <p>
+      <input type="text" id="username" name="username" placeholder="Full name" />
+    </p>
+    <p>
+      <input type="text" id="email" name="email" placeholder="Email address" />
+    </p>
+    <p>
+      <label for="message">What do you have to say?</label>
+      <textarea name="message" rows="8" cols="46 s"></textarea>
+    </p>
+    <p>
+      <input type="submit" id="submit" value="SUBMIT" />
+    </p>
+  </form>
+</div>
+
+<footer><!-- style is in contact.scss -->
+  <span>Visit us at:</span><br>
+  <a href="#">Twitter |</a>
+  <a href="#">Facebook |</a>
+  <a href="#">Instagram</a>
+  <br>
+
+  <span>Woodstock Pretzel Company &copy;</span>
+</footer>
+
+
+// smooth scroll
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 500);
+          return false;
+        }
+      }
+    });
+
+  });
+

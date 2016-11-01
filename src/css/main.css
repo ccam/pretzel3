@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Sanchez);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css");
+.top {
+  height: 100vh;
+  width: 100%; }
+  .top img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 300px;
+    padding-top: 5%; }
+  .top p {
+    text-align: center;
+    font-family: "Bitter", serif;
+    padding: 100px 0; }
+  .top a {
+    font-weight: bold; }
+
+.aboutContain {
+  display: flex; }
+
+.aboutLeft {
+  width: 50vw; }
+  .aboutLeft .topImg {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: auto; }
+  .aboutLeft p {
+    width: 45vw;
+    padding: 5vh 0;
+    text-align: justify;
+    display: block;
+    margin: 0 auto; }
+
+.socialLinks {
+  width: 13vw;
+  margin: 0 auto; }
+
+.social {
+  height: 50px;
+  width: 50px; }
+
+.aboutRight {
+  margin: 0 auto; }
+  .aboutRight form {
+    background: #fff;
+    max-width: 300px;
+    margin: auto 0;
+    padding: 1em 1em 1em;
+    box-shadow: 0 0 1em #555; }
+  .aboutRight p {
+    margin: 0 0 1em 0;
+    position: relative; }
+  .aboutRight label {
+    display: block;
+    font-size: 1em;
+    color: #333;
+    margin: 0 0 .5em; }
+  .aboutRight input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none; }
+  .aboutRight input[type="text"] {
+    border: 1px solid #e2e2f1;
+    background: #ede3cd;
+    padding: .8em .5em;
+    font-size: 1em; }
+  .aboutRight input[type="submit"] {
+    display: block;
+    border: none;
+    outline: none;
+    margin: 2em 0 0;
+    padding: 0.7em 0;
+    color: #fff;
+    background: #E8B57D;
+    box-shadow: 0 5px 0 0 #BF681B;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    cursor: pointer; }
+  .aboutRight textarea {
+    background: #ede3cd;
+    border: 0; }
+
+.menuContain {
+  display: flex; }
+  .menuContain h2 {
+    margin: 0 5vw; }
+  .menuContain img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto; }
+  .menuContain .Row1 {
+    display: flex;
+    margin: 5vh 0; }
+    .menuContain .Row1 .item1,
+    .menuContain .Row1 .item2,
+    .menuContain .Row1 .item3 {
+      margin: 0 auto;
+      cursor: pointer; }
+      .menuContain .Row1 .item1 p,
+      .menuContain .Row1 .item2 p,
+      .menuContain .Row1 .item3 p {
+        text-align: center; }
+  .menuContain .Row2 {
+    display: flex; }
+    .menuContain .Row2 .item4,
+    .menuContain .Row2 .item5,
+    .menuContain .Row2 .item6 {
+      margin: 0 auto;
+      cursor: pointer; }
+      .menuContain .Row2 .item4 p,
+      .menuContain .Row2 .item5 p,
+      .menuContain .Row2 .item6 p {
+        text-align: center; }
+  .menuContain .menuLeft, .menuContain .menuRight {
+    width: 50vw;
+    margin: 0 auto; }
+  .menuContain .menuLeft h2 {
+    text-align: right; }
+  .menuContain .menuRight h2 {
+    text-align: left; }
+  .menuContain .close {
+    text-align: right;
+    cursor: pointer;
+    font-family: monospace;
+    margin: 2vh 1vw; }
+  .menuContain .itemDetail {
+    width: 50vw;
+    background-color: rgba(221, 221, 221, 0.9001);
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #444; }
+    .menuContain .itemDetail img {
+      height: 300px;
+      width: 300px; }
+    .menuContain .itemDetail h3 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      font-size: 1.5em; }
+
+.gallery {
+  height: 100vh;
+  display: flex; }
+  .gallery ul > li {
+    list-style: none;
+    display: inline; }
+  .gallery .smallPicSection {
+    padding-top: 6vh; }
+  .gallery .smallPic {
+    height: 200px;
+    width: 200px; }
+  .gallery .bigPicSection {
+    padding-top: 6vh; }
+  .gallery #bigImg {
+    height: 600px;
+    width: auto; }
+
+body {
+  background-image: radial-gradient(circle farthest-side, #fff, #BF681B); }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/* for the head */
+h1 {
+  text-align: center;
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
+  padding: 3vh 0;
+  font-family: "Sanchez", serif; }
+
+h2 {
+  text-align: center;
+  font-family: "Sanchez", serif; }
+
+nav ul {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0; }
+  nav ul li {
+    display: inline;
+    margin: 1vh 1vw; }

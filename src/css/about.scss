@@ -1,0 +1,80 @@
+@import "vars.scss";
+.aboutContain {
+        display: flex;
+    }
+    .aboutLeft {
+        width: 50vw;
+        .topImg {
+            display: block;
+            margin: 0 auto;
+            height: 300px;
+            width: auto;
+        }
+        p {
+            width: 45vw;
+            padding: 5vh 0;
+            text-align: justify;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .socialLinks {
+      width: 13vw;
+      margin: 0 auto;
+    }
+
+    .social {
+      height: 50px;
+      width: 50px;
+    }
+
+    .aboutRight {
+      margin: 0 auto;
+        form {
+            background: #fff;
+            max-width: 300px;
+            margin: auto 0;
+            padding: 1em 1em 1em;
+            box-shadow: 0 0 1em #555;
+        }
+        p {
+            margin: 0 0 1em 0;
+            position: relative;
+        }
+        label {
+            display: block;
+            font-size: 1em;
+            color: #333;
+            margin: 0 0 .5em;
+        }
+        input {
+            display: block;
+            box-sizing: border-box;
+            width: 100%;
+            outline: none;
+        }
+        input[type="text"] {
+            border: 1px solid #e2e2f1;
+            background: #ede3cd;
+            padding: .8em .5em;
+            font-size: 1em;
+        }
+        input[type="submit"] {
+            display: block;
+            border: none;
+            outline: none;
+            margin: 2em 0 0;
+            padding: 0.7em 0;
+            color: #fff;
+            background: #E8B57D;
+            ;
+            box-shadow: 0 5px 0 0 #BF681B;
+            font-size: 1.25em;
+            line-height: 1.6em;
+            cursor: pointer;
+        }
+        textarea {
+            background: #ede3cd;
+            border: 0;
+        }
+    }

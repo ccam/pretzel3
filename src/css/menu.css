@@ -1,0 +1,59 @@
+.menuContain {
+  display: flex; }
+  .menuContain h2 {
+    margin: 0 5vw; }
+  .menuContain img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto; }
+  .menuContain .Row1 {
+    display: flex;
+    margin: 5vh 0; }
+    .menuContain .Row1 .item1,
+    .menuContain .Row1 .item2,
+    .menuContain .Row1 .item3 {
+      margin: 0 auto;
+      cursor: pointer; }
+      .menuContain .Row1 .item1 p,
+      .menuContain .Row1 .item2 p,
+      .menuContain .Row1 .item3 p {
+        text-align: center; }
+  .menuContain .Row2 {
+    display: flex; }
+    .menuContain .Row2 .item4,
+    .menuContain .Row2 .item5,
+    .menuContain .Row2 .item6 {
+      margin: 0 auto;
+      cursor: pointer; }
+      .menuContain .Row2 .item4 p,
+      .menuContain .Row2 .item5 p,
+      .menuContain .Row2 .item6 p {
+        text-align: center; }
+  .menuContain .menuLeft, .menuContain .menuRight {
+    width: 50vw;
+    margin: 0 auto; }
+  .menuContain .menuLeft h2 {
+    text-align: right; }
+  .menuContain .menuRight h2 {
+    text-align: left; }
+  .menuContain .close {
+    text-align: right;
+    cursor: pointer;
+    font-family: monospace;
+    margin: 2vh 1vw; }
+  .menuContain .itemDetail {
+    width: 50vw;
+    background-color: rgba(221, 221, 221, 0.9001);
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #444; }
+    .menuContain .itemDetail img {
+      height: 300px;
+      width: 300px; }
+    .menuContain .itemDetail h3 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      font-size: 1.5em; }

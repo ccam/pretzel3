@@ -1,0 +1,88 @@
+@import 'vars.scss';
+.menuContain {
+    display: flex;
+
+    h2 {
+      margin: 0 5vw;
+    }
+ 
+     img {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .Row1 {
+      display: flex;
+      margin: 5vh 0;
+      .item1,
+      .item2,
+      .item3 {
+        margin: 0 auto;
+        cursor: pointer;
+        
+        p {
+          text-align: center;
+        }
+      }
+    }
+    .Row2 {
+      display: flex;
+      .item4,
+      .item5,
+      .item6 {
+      margin: 0 auto;
+      cursor: pointer;
+      
+        p {
+          text-align: center;
+        }
+      }
+    }
+    .menuLeft , .menuRight {
+        width: 50vw;
+        margin: 0 auto;
+    }
+
+    .menuLeft {
+       h2 {
+          text-align: right;
+        }
+    }
+
+    .menuRight {
+      h2 {
+        text-align: left;
+      }
+    }
+
+
+    .close {
+      text-align: right;
+      cursor: pointer;
+      font-family: monospace;
+      margin: 2vh 1vw;
+    }
+
+    .itemDetail {
+      width: 50vw;
+      background-color: rgba(221, 221, 221, 0.9001);//lolol 9001
+      position: absolute;
+      top: 25vh;
+      left: 25vw;
+      border-radius: 5px;
+      box-shadow: 1px 1px 10px #444;
+
+      img {
+        height: 300px;
+        width: 300px;
+      }
+
+      h3 {
+        text-align: center;
+        font-family: $sanchez;
+        font-size: 1.5em;
+      }
+    }
+}

@@ -1,0 +1,31 @@
+@import "vars.scss";
+
+.gallery {
+  height: 100vh;
+  display: flex;
+
+  ul > li {
+    list-style: none;
+    display: inline;
+  }
+
+  .smallPicSection {
+    padding-top: 6vh;
+    
+    
+  }
+
+  .smallPic {
+    height: 200px;
+    width: 200px;
+  }
+
+  .bigPicSection {
+    padding-top: 6vh;
+  }
+
+  #bigImg {
+    height: 600px;
+    width: auto;
+  }
+}
