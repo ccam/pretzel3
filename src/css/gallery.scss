@@ -10,23 +10,28 @@
     display: inline;
   }
 
-  .smallPicSection {
-    padding-top: 6vh;
-    
-    
-  }
-
+.smallPicSection {
+  height: 600px;
+}
   .smallPic {
     height: 200px;
     width: 200px;
   }
 
   .bigPicSection {
-    padding-top: 6vh;
+    height: 600px;
+    
+    
   }
 
   #bigImg {
-    height: 600px;
+    margin: 0 auto;
     width: auto;
+    max-width: 500px;
+    height: auto;
+    max-height: 600px;
+    padding-left: 2vw;
+    position: relative;
+    top: 5vh;
   }
 }

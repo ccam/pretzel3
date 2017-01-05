@@ -1,0 +1,19 @@
+header {
+  margin-bottom: 1vh;
+  padding-bottom: 0; }
+
+#calendar {
+  width: 99vw;
+  margin: 0 auto;
+  padding-top: 0; }
+
+.fc-event {
+  background-color: #D09159;
+  border: 1px solid #D09159;
+  color: #000; }
+
+.fc-unthemed tbody {
+  border-color: #000; }
+
+.fc-view {
+  border-color: #000; }

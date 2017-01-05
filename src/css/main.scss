@@ -6,6 +6,7 @@
 @import "about.scss";
 @import "menu.scss";
 @import "gallery.scss";
+@import "tour.scss";
 @import "vars.scss";
 
 body {
@@ -50,3 +51,7 @@ nav {
     }
   }
 }
+
+.tour {
+    background-color: #BF681B;
+  }
